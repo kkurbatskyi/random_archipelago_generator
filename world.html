@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<header></header>
+		<script src="supplements/seedrandom.js" defer></script>
+		<script src="world.js" defer></script>
+		<style>
+			table{border-collapse: collapse;}
+		</style>
+	</head>
+	<body>
+		<div class="slidecontainer">
+		<label for="waterRange">Filling of water</label><input type="range" min="0.000" max="0.5" value="0.125" step="0.001" class="slider" id="waterRange"> <label for="waterRange" id="sliderValue">0.125</label>
+		<button id="cleaner">Clean Sand</button>
+		<br/>
+		<label for="waterChance">Spawning of water</label><input type="range" min="0.0000" max="0.006" value="0.003" step="0.0001" class="slider" id="waterChance"> <label for="waterChance" id="chanceValue">0.003</label>
+		</div>
+		<div id="table"></div>
+	</body>
+</html>
